@@ -1,6 +1,6 @@
 import { View } from "react-native";
 import PostHeader from "./PostHeader";
-import PostNav from "./PostNav";
+import PostFooter from "./PostFooter";
 import PostImg from "./PostImg";
 
 export default function Post() {
@@ -17,7 +17,7 @@ export default function Post() {
     >
       <PostHeader />
       <PostImg />
-      <PostNav />
+      <PostFooter />
     </View>
   );
 }

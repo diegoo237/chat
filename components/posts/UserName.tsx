@@ -1,5 +1,9 @@
-import { View } from "react-native";
+import { View, Text } from "react-native";
 
 export default function UserName() {
-  return <View></View>;
+  return (
+    <View>
+      <Text style={{ width: "100" }}>Diego</Text>
+    </View>
+  );
 }

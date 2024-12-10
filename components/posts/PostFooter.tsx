@@ -1,13 +1,13 @@
 import { View } from "react-native";
 import Ionicons from "@expo/vector-icons/Ionicons";
 
-export default function PostNav() {
+export default function PostFooter() {
   return (
     <View
       style={{
         justifyContent: "center",
         flexDirection: "row",
-        height: "11.4%",
+        height: "11%",
         width: "100%",
       }}
     >
@@ -17,6 +17,7 @@ export default function PostNav() {
           justifyContent: "center",
           alignItems: "center",
           borderRightWidth: 0.5,
+          borderBottomWidth: 0.5,
           borderColor: "#ced4da",
         }}
       >
@@ -28,6 +29,7 @@ export default function PostNav() {
           justifyContent: "center",
           alignItems: "center",
           borderLeftWidth: 0.5,
+          borderBottomWidth: 0.5,
           borderColor: "#ced4da",
         }}
       >
